@@ -42,7 +42,7 @@ class Trackpoint {
     if (this.markertype == 1) {
       fill(this.markercolor1);
       ellipse(this.xpos, this.ypos, this.size, this.size);
-      fill(this.markerColor2);
+      fill(this.markercolor2);
       arc(this.xpos, this.ypos, this.size, this.size, 0, HALF_PI, PIE);
       arc(this.xpos, this.ypos, this.size, this.size, PI, PI + HALF_PI, PIE);
     } else if (this.markertype == 2) {
