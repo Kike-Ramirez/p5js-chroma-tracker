@@ -18,13 +18,10 @@ class Trackpoint {
     this.markercolor2 = markercolor2;
   }
 
-  setPosition(x, y) {
-    this.xpos = x;
-    this.ypos = y;
-  }
-
-  setSize(s) {
-    this.size = s;
+  resize(x, y, s) {
+    this.xpos=x;
+    this.ypos=y;
+    this.size=s;
   }
 
   setColor(tpcolor) {
